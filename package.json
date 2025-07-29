@@ -4,6 +4,9 @@
   "description": "Chitkara BFHL API",
   "type": "module",
   "main": "api/bfhl.js",
+  "engines":{
+    "node":"18.x"
+  },
   "scripts": {
     "start": "node api/bfhl.js",
     "dev": "nodemon api/bfhl.js"
